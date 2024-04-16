@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+}
+
+::ng-deep ul.ngx-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+    a {
+        color: #ffffff
+    }
+
+    a:hover {
+        background: #595959;
+    }
+
+    .disabled {
+        color: #595959
+    }
+}
